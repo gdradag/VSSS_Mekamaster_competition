@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robot-mqtt
+Version: 0.0.1
+Summary: Nodo que comunica ROS 2 con ESP32 usando MQTT
+Home-page: UNKNOWN
+Maintainer: tu_usuario
+Maintainer-email: tu_email@example.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

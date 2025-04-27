@@ -1,0 +1,27 @@
+[0.440s] Invoking command in '/home/juan/workspace/ros3_ws/src/robot_mqtt': PYTHONPATH=/home/juan/workspace/ros3_ws/build/robot_mqtt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juan/workspace/ros3_ws/install/robot_mqtt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mqtt build --build-base /home/juan/workspace/ros3_ws/build/robot_mqtt/build install --record /home/juan/workspace/ros3_ws/build/robot_mqtt/install.log --single-version-externally-managed
+[0.603s] running egg_info
+[0.603s] writing ../../build/robot_mqtt/robot_mqtt.egg-info/PKG-INFO
+[0.603s] writing dependency_links to ../../build/robot_mqtt/robot_mqtt.egg-info/dependency_links.txt
+[0.603s] writing entry points to ../../build/robot_mqtt/robot_mqtt.egg-info/entry_points.txt
+[0.604s] writing requirements to ../../build/robot_mqtt/robot_mqtt.egg-info/requires.txt
+[0.604s] writing top-level names to ../../build/robot_mqtt/robot_mqtt.egg-info/top_level.txt
+[0.605s] reading manifest file '../../build/robot_mqtt/robot_mqtt.egg-info/SOURCES.txt'
+[0.606s] writing manifest file '../../build/robot_mqtt/robot_mqtt.egg-info/SOURCES.txt'
+[0.606s] running build
+[0.607s] running build_py
+[0.607s] copying robot_mqtt/movement_node.py -> /home/juan/workspace/ros3_ws/build/robot_mqtt/build/lib/robot_mqtt
+[0.607s] copying robot_mqtt/mqtt_publisher.py -> /home/juan/workspace/ros3_ws/build/robot_mqtt/build/lib/robot_mqtt
+[0.607s] running install
+[0.607s] running install_lib
+[0.607s] copying /home/juan/workspace/ros3_ws/build/robot_mqtt/build/lib/robot_mqtt/movement_node.py -> /home/juan/workspace/ros3_ws/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt
+[0.607s] copying /home/juan/workspace/ros3_ws/build/robot_mqtt/build/lib/robot_mqtt/mqtt_publisher.py -> /home/juan/workspace/ros3_ws/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt
+[0.608s] byte-compiling /home/juan/workspace/ros3_ws/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt/movement_node.py to movement_node.cpython-310.pyc
+[0.608s] byte-compiling /home/juan/workspace/ros3_ws/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt/mqtt_publisher.py to mqtt_publisher.cpython-310.pyc
+[0.609s] running install_egg_info
+[0.610s] removing '/home/juan/workspace/ros3_ws/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt-0.0.1-py3.10.egg-info' (and everything under it)
+[0.610s] Copying ../../build/robot_mqtt/robot_mqtt.egg-info to /home/juan/workspace/ros3_ws/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt-0.0.1-py3.10.egg-info
+[0.612s] running install_scripts
+[0.629s] Installing movement_node script to /home/juan/workspace/ros3_ws/install/robot_mqtt/lib/robot_mqtt
+[0.629s] Installing robot_mqtt script to /home/juan/workspace/ros3_ws/install/robot_mqtt/lib/robot_mqtt
+[0.630s] writing list of installed files to '/home/juan/workspace/ros3_ws/build/robot_mqtt/install.log'
+[0.659s] Invoked command in '/home/juan/workspace/ros3_ws/src/robot_mqtt' returned '0': PYTHONPATH=/home/juan/workspace/ros3_ws/build/robot_mqtt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juan/workspace/ros3_ws/install/robot_mqtt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mqtt build --build-base /home/juan/workspace/ros3_ws/build/robot_mqtt/build install --record /home/juan/workspace/ros3_ws/build/robot_mqtt/install.log --single-version-externally-managed
