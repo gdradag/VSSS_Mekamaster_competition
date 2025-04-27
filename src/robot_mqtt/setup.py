@@ -18,9 +18,13 @@ setup(
     entry_points={
         "console_scripts": [
             "robot_mqtt = robot_mqtt.mqtt_publisher:main",
-            "movement_node = robot_mqtt.movement_node:main",
             "teleop_interface = robot_mqtt.teleop_interface:main",
             "teleop_node = robot_mqtt.teleop_node:main",
+            "velocity_calculator = robot_mqtt.velocity_calculator:main",
+            "video_publisher = robot_mqtt.video_publisher:main",
+            "robot_tracker = robot_mqtt.robot_tracker:main"
+            "position_estimator = robot_mqtt.position_estimator",
+
         ],
     },
     data_files=[
