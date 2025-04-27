@@ -1,0 +1,6 @@
+[console_scripts]
+movement_node = robot_mqtt.movement_node:main
+robot_mqtt = robot_mqtt.mqtt_publisher:main
+teleop_interface = robot_mqtt.teleop_interface:main
+teleop_node = robot_mqtt.teleop_node:main
+

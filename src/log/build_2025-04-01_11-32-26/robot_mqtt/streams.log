@@ -1,0 +1,24 @@
+[0.314s] Invoking command in '/home/gabriela/ros3_ws/src/robot_mqtt': PYTHONPATH=/home/gabriela/ros3_ws/src/build/robot_mqtt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/ros3_ws/src/install/robot_mqtt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_mqtt build --build-base /home/gabriela/ros3_ws/src/build/robot_mqtt/build install --record /home/gabriela/ros3_ws/src/build/robot_mqtt/install.log --single-version-externally-managed install_data
+[0.432s] running egg_info
+[0.432s] writing ../build/robot_mqtt/robot_mqtt.egg-info/PKG-INFO
+[0.432s] writing dependency_links to ../build/robot_mqtt/robot_mqtt.egg-info/dependency_links.txt
+[0.433s] writing entry points to ../build/robot_mqtt/robot_mqtt.egg-info/entry_points.txt
+[0.433s] writing requirements to ../build/robot_mqtt/robot_mqtt.egg-info/requires.txt
+[0.433s] writing top-level names to ../build/robot_mqtt/robot_mqtt.egg-info/top_level.txt
+[0.433s] reading manifest file '../build/robot_mqtt/robot_mqtt.egg-info/SOURCES.txt'
+[0.434s] writing manifest file '../build/robot_mqtt/robot_mqtt.egg-info/SOURCES.txt'
+[0.434s] running build
+[0.434s] running build_py
+[0.434s] running install
+[0.434s] running install_lib
+[0.435s] running install_data
+[0.435s] running install_egg_info
+[0.436s] removing '/home/gabriela/ros3_ws/src/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt-0.0.1-py3.10.egg-info' (and everything under it)
+[0.436s] Copying ../build/robot_mqtt/robot_mqtt.egg-info to /home/gabriela/ros3_ws/src/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt-0.0.1-py3.10.egg-info
+[0.437s] running install_scripts
+[0.451s] Installing movement_node script to /home/gabriela/ros3_ws/src/install/robot_mqtt/lib/robot_mqtt
+[0.451s] Installing robot_mqtt script to /home/gabriela/ros3_ws/src/install/robot_mqtt/lib/robot_mqtt
+[0.451s] Installing teleop_interface script to /home/gabriela/ros3_ws/src/install/robot_mqtt/lib/robot_mqtt
+[0.451s] Installing teleop_node script to /home/gabriela/ros3_ws/src/install/robot_mqtt/lib/robot_mqtt
+[0.451s] writing list of installed files to '/home/gabriela/ros3_ws/src/build/robot_mqtt/install.log'
+[0.469s] Invoked command in '/home/gabriela/ros3_ws/src/robot_mqtt' returned '0': PYTHONPATH=/home/gabriela/ros3_ws/src/build/robot_mqtt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/ros3_ws/src/install/robot_mqtt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_mqtt build --build-base /home/gabriela/ros3_ws/src/build/robot_mqtt/build install --record /home/gabriela/ros3_ws/src/build/robot_mqtt/install.log --single-version-externally-managed install_data
