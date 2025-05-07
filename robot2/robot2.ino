@@ -77,7 +77,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 void reconnect() {
   while (!client.connected()) {
     Serial.print("🔁 Intentando conexión MQTT...");
-    if (client.connect("ESP32_robot2")) {
+    if (client.connect("ESP32_robot2")) {  //el ID de los robots debe ser diferente para que no exista interferencia entre las ESP32
       Serial.println("✅ Conectado al broker MQTT");
       client.subscribe("robot2/move");
     } else {
