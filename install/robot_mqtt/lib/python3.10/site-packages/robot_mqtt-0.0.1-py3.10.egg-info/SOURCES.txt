@@ -10,9 +10,16 @@ setup.py
 ../../build/robot_mqtt/robot_mqtt.egg-info/zip-safe
 resource/robot_mqtt
 robot_mqtt/__init__.py
-robot_mqtt/movement_node.py
+robot_mqtt/position_estimator.py
+robot_mqtt/robot_tracker.py
+robot_mqtt/teleop_Snode.py
+robot_mqtt/teleop_Snode2.py
 robot_mqtt/teleop_interface.py
+robot_mqtt/teleop_interface2.py
 robot_mqtt/teleop_node.py
+robot_mqtt/teleop_node2.py
+robot_mqtt/velocity_calculator.py
+robot_mqtt/video_publisher.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
