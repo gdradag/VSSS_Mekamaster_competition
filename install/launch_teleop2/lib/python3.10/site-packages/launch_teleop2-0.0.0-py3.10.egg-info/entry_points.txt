@@ -1,0 +1,5 @@
+[console_scripts]
+teleop_Snode2 = launch_teleop.teleop_Snode2:main
+teleop_interface2 = launch_teleop.teleop_interface2:main
+teleop_node2 = launch_teleop.teleop_node2:main
+

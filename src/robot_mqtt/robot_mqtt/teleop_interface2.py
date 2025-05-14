@@ -30,9 +30,9 @@ class TeleopInterface(Node):
         button_frame.pack()
 
         # Títulos de los robots
-        self.robot1_label = Label(button_frame, text="Robot 1", font=("Arial", 14))
+        self.robot1_label = Label(button_frame, text="Robot 3", font=("Arial", 14))
         self.robot1_label.grid(row=0, column=1, pady=5)
-        self.robot2_label = Label(button_frame, text="Robot 2", font=("Arial", 14))
+        self.robot2_label = Label(button_frame, text="Robot 4", font=("Arial", 14))
         self.robot2_label.grid(row=0, column=4, pady=5)
 
         # Botones de control para el Robot 1

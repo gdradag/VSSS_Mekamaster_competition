@@ -1,0 +1,47 @@
+[0.462s] Invoking command in '/home/gabriela/dina_movement_teleop/src/launch_teleop': PYTHONPATH=/home/gabriela/dina_movement_teleop/build/launch_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_teleop build --build-base /home/gabriela/dina_movement_teleop/build/launch_teleop/build install --record /home/gabriela/dina_movement_teleop/build/launch_teleop/install.log --single-version-externally-managed install_data
+[0.585s] running egg_info
+[0.585s] creating ../../build/launch_teleop/launch_teleop.egg-info
+[0.586s] writing ../../build/launch_teleop/launch_teleop.egg-info/PKG-INFO
+[0.586s] writing dependency_links to ../../build/launch_teleop/launch_teleop.egg-info/dependency_links.txt
+[0.586s] writing entry points to ../../build/launch_teleop/launch_teleop.egg-info/entry_points.txt
+[0.586s] writing requirements to ../../build/launch_teleop/launch_teleop.egg-info/requires.txt
+[0.586s] writing top-level names to ../../build/launch_teleop/launch_teleop.egg-info/top_level.txt
+[0.586s] writing manifest file '../../build/launch_teleop/launch_teleop.egg-info/SOURCES.txt'
+[0.587s] reading manifest file '../../build/launch_teleop/launch_teleop.egg-info/SOURCES.txt'
+[0.587s] writing manifest file '../../build/launch_teleop/launch_teleop.egg-info/SOURCES.txt'
+[0.587s] running build
+[0.587s] running build_py
+[0.587s] creating /home/gabriela/dina_movement_teleop/build/launch_teleop/build
+[0.588s] creating /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib
+[0.588s] creating /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop
+[0.588s] copying launch_teleop/teleop_node.py -> /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop
+[0.588s] copying launch_teleop/teleop_interface.py -> /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop
+[0.588s] copying launch_teleop/teleop.Snode.py -> /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop
+[0.588s] copying launch_teleop/__init__.py -> /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop
+[0.588s] running install
+[0.588s] running install_lib
+[0.588s] creating /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop
+[0.588s] copying /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop/teleop_node.py -> /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop
+[0.588s] copying /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop/teleop_interface.py -> /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop
+[0.588s] copying /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop/teleop.Snode.py -> /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop
+[0.588s] copying /home/gabriela/dina_movement_teleop/build/launch_teleop/build/lib/launch_teleop/__init__.py -> /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop
+[0.588s] byte-compiling /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/teleop_node.py to teleop_node.cpython-310.pyc
+[0.589s] byte-compiling /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/teleop_interface.py to teleop_interface.cpython-310.pyc
+[0.590s] byte-compiling /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/teleop.Snode.py to teleop.Snode.cpython-310.pyc
+[0.590s] byte-compiling /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/__init__.py to __init__.cpython-310.pyc
+[0.590s] running install_data
+[0.590s] creating /home/gabriela/dina_movement_teleop/install/launch_teleop/share/ament_index
+[0.590s] creating /home/gabriela/dina_movement_teleop/install/launch_teleop/share/ament_index/resource_index
+[0.590s] creating /home/gabriela/dina_movement_teleop/install/launch_teleop/share/ament_index/resource_index/packages
+[0.591s] copying resource/launch_teleop -> /home/gabriela/dina_movement_teleop/install/launch_teleop/share/ament_index/resource_index/packages
+[0.591s] copying package.xml -> /home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop
+[0.591s] creating /home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/launch
+[0.591s] copying launch/teleop_interface_launch.py -> /home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/launch
+[0.591s] running install_egg_info
+[0.591s] Copying ../../build/launch_teleop/launch_teleop.egg-info to /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop-0.0.0-py3.10.egg-info
+[0.592s] running install_scripts
+[0.605s] Installing teleop_Snode script to /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/launch_teleop
+[0.605s] Installing teleop_interface script to /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/launch_teleop
+[0.605s] Installing teleop_node script to /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/launch_teleop
+[0.605s] writing list of installed files to '/home/gabriela/dina_movement_teleop/build/launch_teleop/install.log'
+[0.622s] Invoked command in '/home/gabriela/dina_movement_teleop/src/launch_teleop' returned '0': PYTHONPATH=/home/gabriela/dina_movement_teleop/build/launch_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_teleop build --build-base /home/gabriela/dina_movement_teleop/build/launch_teleop/build install --record /home/gabriela/dina_movement_teleop/build/launch_teleop/install.log --single-version-externally-managed install_data

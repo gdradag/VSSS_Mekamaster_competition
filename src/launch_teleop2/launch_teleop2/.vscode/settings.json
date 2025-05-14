@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/python3.10/site-packages",
+        "/home/gabriela/vsss_ws/install/yellow_servo/lib/python3.10/site-packages",
+        "/home/gabriela/vsss_ws/install/colors_vsss/lib/python3.10/site-packages",
+        "/home/gabriela/ros-humble-ros1-bridge/install/ros1_bridge/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/python3.10/site-packages",
+        "/home/gabriela/vsss_ws/install/yellow_servo/lib/python3.10/site-packages",
+        "/home/gabriela/vsss_ws/install/colors_vsss/lib/python3.10/site-packages",
+        "/home/gabriela/ros-humble-ros1-bridge/install/ros1_bridge/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

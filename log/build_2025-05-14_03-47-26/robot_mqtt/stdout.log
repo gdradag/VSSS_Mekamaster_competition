@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/robot_mqtt/robot_mqtt.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_mqtt/robot_mqtt.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_mqtt/robot_mqtt.egg-info/entry_points.txt
+writing requirements to ../../build/robot_mqtt/robot_mqtt.egg-info/requires.txt
+writing top-level names to ../../build/robot_mqtt/robot_mqtt.egg-info/top_level.txt
+reading manifest file '../../build/robot_mqtt/robot_mqtt.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_mqtt/robot_mqtt.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_mqtt/robot_mqtt.egg-info to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/python3.10/site-packages/robot_mqtt-0.0.1-py3.10.egg-info
+running install_scripts
+Installing robot_mqtt script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing robot_tracker = robot_mqtt.robot_tracker:mainposition_estimator script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing teleop_Snode script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing teleop_Snode2 script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing teleop_interface script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing teleop_interface2 script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing teleop_node script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing teleop_node2 script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing velocity_calculator script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+Installing video_publisher script to /home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/robot_mqtt
+writing list of installed files to '/home/gabriela/dina_movement_teleop/build/robot_mqtt/install.log'
