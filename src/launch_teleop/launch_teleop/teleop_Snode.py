@@ -10,7 +10,7 @@ class TeleopSnode(Node):
 
         # Configurar el cliente MQTT
         self.mqtt_client = mqtt.Client()
-        self.mqtt_client.connect("192.168.57.128", 1883, 60)  # Cambia "localhost" por la IP de tu broker MQTT
+        self.mqtt_client.connect("192.168.8.106", 1883, 60)  # Cambia "localhost" por la IP de tu broker MQTT
         self.get_logger().info("Teleop Node started. Listening to teleop_cmd2 topic.")
 
         # Iniciar el loop MQTT en un hilo separado

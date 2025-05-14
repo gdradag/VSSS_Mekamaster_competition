@@ -13,9 +13,9 @@ const int STBY = 33;
 int velocidad = 60;
 
 // Configuración de WiFi y MQTT
-const char* ssid = "SEMILLERO_ROBOTICA";
-const char* password = "Chimuelo2018";
-const char* mqtt_server = "192.168.8.119";
+const char* ssid = "gabyd";
+const char* password = "12345678";
+const char* mqtt_server = "192.168.57.128";
 
 WiFiClient espClient;
 PubSubClient client(espClient);

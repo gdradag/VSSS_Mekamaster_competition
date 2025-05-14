@@ -10,7 +10,7 @@ setup.py
 ../../build/launch_teleop/launch_teleop.egg-info/zip-safe
 launch/teleop_interface_launch.py
 launch_teleop/__init__.py
-launch_teleop/teleop.Snode.py
+launch_teleop/teleop_Snode.py
 launch_teleop/teleop_interface.py
 launch_teleop/teleop_node.py
 resource/launch_teleop

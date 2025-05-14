@@ -1,10 +1,10 @@
 /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/teleop_node.py
 /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/teleop_interface.py
-/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/teleop.Snode.py
+/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/teleop_Snode.py
 /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/__init__.py
 /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/__pycache__/teleop_node.cpython-310.pyc
 /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/__pycache__/teleop_interface.cpython-310.pyc
-/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/__pycache__/teleop.Snode.cpython-310.pyc
+/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/__pycache__/teleop_Snode.cpython-310.pyc
 /home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages/launch_teleop/__pycache__/__init__.cpython-310.pyc
 /home/gabriela/dina_movement_teleop/install/launch_teleop/share/ament_index/resource_index/packages/launch_teleop
 /home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/package.xml

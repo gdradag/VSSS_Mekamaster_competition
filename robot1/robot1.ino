@@ -4,13 +4,13 @@
 
 #define DirectionPin 12   // Pin de dirección de los motores
 #define BaudRate 1000000  // Velocidad de comunicación Dynamixel
-#define ID1 4             // ID del primer motor
-#define ID2 5             // ID del segundo motor
+#define ID1 15             // ID del primer motor
+#define ID2 17             // ID del segundo motor
 
 // Configuración WiFi y MQTT
-const char* ssid = "SEMILLERO_ROBOTICA";
-const char* password = "Chimuelo2018";
-const char* mqtt_server = "192.168.8.119";
+const char* ssid = "gabyd";
+const char* password = "12345678";
+const char* mqtt_server = "192.168.57.128";
 
 WiFiClient espClient;
 PubSubClient client(espClient);

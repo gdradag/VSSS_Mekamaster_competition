@@ -6,9 +6,9 @@ from tkinter import Label, Button
 import cv2
 from PIL import Image, ImageTk
 
-class TeleopInterface2(Node):
+class TeleopInterface(Node):
     def __init__(self):
-        super().__init__('teleop_interface2')
+        super().__init__('teleop_interface')
         self.publisher_1 = self.create_publisher(String, 'teleop_cmd3', 10)  # Robot 1
         self.publisher_2 = self.create_publisher(String, 'teleop_cmd4', 10)  # Robot 2
         self.init_ui()
@@ -99,11 +99,11 @@ class TeleopInterface2(Node):
         if robot == 1:
             msg.data = command
             self.publisher_1.publish(msg)
-            self.get_logger().info(f"Enviado comando al Robot 3: {command}")
+            self.get_logger().info(f"Enviado comando al Robot 1: {command}")
         elif robot == 2:
             msg.data = command
             self.publisher_2.publish(msg)
-            self.get_logger().info(f"Enviado comando al Robot 4: {command}")
+            self.get_logger().info(f"Enviado comando al Robot 2: {command}")
 
     def update_frame(self):
         ret, frame = self.cap.read()
@@ -127,7 +127,7 @@ class TeleopInterface2(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = TeleopInterface2()
+    node = TeleopInterface()
     node.root.mainloop()  # Ejecuta Tkinter y ROS 2 sin bloquearse
     node.destroy()
     rclpy.shutdown()
