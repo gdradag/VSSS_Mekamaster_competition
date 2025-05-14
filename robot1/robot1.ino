@@ -11,7 +11,7 @@
 // Configuración de WiFi y MQTT
 const char* ssid = "SEMILLERO_ROBOTICA";
 const char* password = "Chimuelo2018";
-const char* mqtt_server = "192.168.8.101";
+const char* mqtt_server = "192.168.8.100";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -77,7 +77,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 void reconnect() {
   while (!client.connected()) {
     Serial.print("🔁 Intentando conexión MQTT...");
-    if (client.connect("ESP32_robot1")) { //el ID de los robots debe ser diferente para que no exista interferencia entre las ESP32
+    if (client.connect("ESP32_robot1")) {  //el ID de los robots debe ser diferente para que no exista interferencia entre las ESP32
       Serial.println("✅ Conectado al broker MQTT");
       client.subscribe("robot/move");
     } else {
