@@ -1,0 +1,294 @@
+[0.053s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.053s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4c5421cbb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4c5421c610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4c5421c610>>)
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.127s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gabriela/dina_movement_teleop'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot1) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot2) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot3) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(robot4) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_teleop' with type 'ros.ament_python' and name 'launch_teleop'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_teleop2) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_teleop2' with type 'ros.ament_python' and name 'launch_teleop2'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mqtt) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_mqtt' with type 'ros.ament_python' and name 'robot_mqtt'
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.151s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/gabriela/dina_movement_teleop/install
+[0.151s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/gabriela/ros-humble-ros1-bridge/install
+[0.151s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/gabriela/vsss_ws/install
+[0.151s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'launch_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriela/dina_movement_teleop/build/launch_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriela/dina_movement_teleop/install/launch_teleop', 'merge_install': False, 'path': '/home/gabriela/dina_movement_teleop/src/launch_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'launch_teleop2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'launch_teleop2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriela/dina_movement_teleop/build/launch_teleop2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriela/dina_movement_teleop/install/launch_teleop2', 'merge_install': False, 'path': '/home/gabriela/dina_movement_teleop/src/launch_teleop2', 'symlink_install': False, 'test_result_base': None}
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'cmake_target' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'robot_mqtt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'robot_mqtt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gabriela/dina_movement_teleop/build/robot_mqtt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gabriela/dina_movement_teleop/install/robot_mqtt', 'merge_install': False, 'path': '/home/gabriela/dina_movement_teleop/src/robot_mqtt', 'symlink_install': False, 'test_result_base': None}
+[0.176s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.176s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.177s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gabriela/dina_movement_teleop/src/launch_teleop' with build type 'ament_python'
+[0.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_teleop', 'ament_prefix_path')
+[0.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/hook/ament_prefix_path.ps1'
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/hook/ament_prefix_path.dsv'
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/hook/ament_prefix_path.sh'
+[0.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.181s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gabriela/dina_movement_teleop/src/launch_teleop2' with build type 'ament_python'
+[0.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_teleop2', 'ament_prefix_path')
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/hook/ament_prefix_path.ps1'
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/hook/ament_prefix_path.dsv'
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/hook/ament_prefix_path.sh'
+[0.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.184s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gabriela/dina_movement_teleop/src/robot_mqtt' with build type 'ament_python'
+[0.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_mqtt', 'ament_prefix_path')
+[0.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/hook/ament_prefix_path.ps1'
+[0.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/hook/ament_prefix_path.dsv'
+[0.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/hook/ament_prefix_path.sh'
+[0.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gabriela/dina_movement_teleop/src/launch_teleop'
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gabriela/dina_movement_teleop/src/launch_teleop2'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.570s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gabriela/dina_movement_teleop/src/robot_mqtt'
+[0.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriela/dina_movement_teleop/src/launch_teleop': PYTHONPATH=/home/gabriela/dina_movement_teleop/build/launch_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_teleop build --build-base /home/gabriela/dina_movement_teleop/build/launch_teleop/build install --record /home/gabriela/dina_movement_teleop/build/launch_teleop/install.log --single-version-externally-managed install_data
+[0.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriela/dina_movement_teleop/src/robot_mqtt': PYTHONPATH=/home/gabriela/dina_movement_teleop/build/robot_mqtt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mqtt build --build-base /home/gabriela/dina_movement_teleop/build/robot_mqtt/build install --record /home/gabriela/dina_movement_teleop/build/robot_mqtt/install.log --single-version-externally-managed install_data
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gabriela/dina_movement_teleop/src/launch_teleop2': PYTHONPATH=/home/gabriela/dina_movement_teleop/build/launch_teleop2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/dina_movement_teleop/install/launch_teleop2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_teleop2 build --build-base /home/gabriela/dina_movement_teleop/build/launch_teleop2/build install --record /home/gabriela/dina_movement_teleop/build/launch_teleop2/install.log --single-version-externally-managed install_data
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriela/dina_movement_teleop/src/launch_teleop' returned '0': PYTHONPATH=/home/gabriela/dina_movement_teleop/build/launch_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_teleop build --build-base /home/gabriela/dina_movement_teleop/build/launch_teleop/build install --record /home/gabriela/dina_movement_teleop/build/launch_teleop/install.log --single-version-externally-managed install_data
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop' for CMake module files
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop' for CMake config files
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop/lib'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/pkgconfig/launch_teleop.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop/lib/python3.10/site-packages'
+[0.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_teleop', 'pythonpath')
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/hook/pythonpath.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/hook/pythonpath.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/hook/pythonpath.sh'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop/bin'
+[0.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_teleop)
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/package.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/package.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/package.sh'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/package.bash'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/launch_teleop/share/launch_teleop/package.zsh'
+[0.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriela/dina_movement_teleop/install/launch_teleop/share/colcon-core/packages/launch_teleop)
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/robot_mqtt' for CMake module files
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriela/dina_movement_teleop/src/robot_mqtt' returned '0': PYTHONPATH=/home/gabriela/dina_movement_teleop/build/robot_mqtt/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mqtt build --build-base /home/gabriela/dina_movement_teleop/build/robot_mqtt/build install --record /home/gabriela/dina_movement_teleop/build/robot_mqtt/install.log --single-version-externally-managed install_data
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/robot_mqtt' for CMake config files
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/robot_mqtt/lib'
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/robot_mqtt/bin'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/pkgconfig/robot_mqtt.pc'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/robot_mqtt/lib/python3.10/site-packages'
+[0.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_mqtt', 'pythonpath')
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/hook/pythonpath.ps1'
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/hook/pythonpath.dsv'
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/hook/pythonpath.sh'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/robot_mqtt/bin'
+[0.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_mqtt)
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/package.ps1'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/package.dsv'
+[0.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/package.sh'
+[0.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/package.bash'
+[0.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/robot_mqtt/package.zsh'
+[0.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriela/dina_movement_teleop/install/robot_mqtt/share/colcon-core/packages/robot_mqtt)
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop2' for CMake module files
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gabriela/dina_movement_teleop/src/launch_teleop2' returned '0': PYTHONPATH=/home/gabriela/dina_movement_teleop/build/launch_teleop2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriela/dina_movement_teleop/install/launch_teleop2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_teleop2 build --build-base /home/gabriela/dina_movement_teleop/build/launch_teleop2/build install --record /home/gabriela/dina_movement_teleop/build/launch_teleop2/install.log --single-version-externally-managed install_data
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop2' for CMake config files
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop2/lib'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop2/bin'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop2/lib/pkgconfig/launch_teleop2.pc'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop2/lib/python3.10/site-packages'
+[1.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_teleop2', 'pythonpath')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/hook/pythonpath.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/hook/pythonpath.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/hook/pythonpath.sh'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/gabriela/dina_movement_teleop/install/launch_teleop2/bin'
+[1.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_teleop2)
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/package.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/package.dsv'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/package.sh'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/package.bash'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/launch_teleop2/package.zsh'
+[1.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gabriela/dina_movement_teleop/install/launch_teleop2/share/colcon-core/packages/launch_teleop2)
+[1.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.006s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.009s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.019s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriela/dina_movement_teleop/install/local_setup.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gabriela/dina_movement_teleop/install/_local_setup_util_ps1.py'
+[1.021s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriela/dina_movement_teleop/install/setup.ps1'
+[1.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriela/dina_movement_teleop/install/local_setup.sh'
+[1.022s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gabriela/dina_movement_teleop/install/_local_setup_util_sh.py'
+[1.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriela/dina_movement_teleop/install/setup.sh'
+[1.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriela/dina_movement_teleop/install/local_setup.bash'
+[1.023s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriela/dina_movement_teleop/install/setup.bash'
+[1.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gabriela/dina_movement_teleop/install/local_setup.zsh'
+[1.023s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gabriela/dina_movement_teleop/install/setup.zsh'
